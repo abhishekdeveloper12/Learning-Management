@@ -21,7 +21,7 @@ const instituteSchema = new mongoose.Schema({
   subscriptionPlan: { type: String, default: 'free' },
   maxStudents: { type: Number, default: 0 },
   maxTeachers: { type: Number, default: 0 },
-  subscriptionExpiry: { type: Date, default: null },
+  subscriptionExpiry: { type: Date, default: null }
 }, {
   timestamps: true
 });

@@ -24,8 +24,6 @@ const createInstitute = async (req, res, next) => {
     }
 
     // Create the new institute
-
-    
     const newInstitute = await Institute.create(req.body);
 
     return res.status(201).json({
